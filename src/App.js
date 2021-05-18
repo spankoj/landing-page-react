@@ -9,8 +9,9 @@ const headerStyle = css`
 
 function App() {
   return (
-    <header>
+    <header css={headerStyle}>
       <img src={logo} alt="logo" />
+      <h1>Test</h1>
     </header>
   );
 }
